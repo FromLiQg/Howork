@@ -8,7 +8,7 @@
 * 其他文件是tmp.exe辅助文件
 
 # 使用说明
-g++ analysis.cpp -o tmp 
+g++ -std=c++11 analysis.cpp -o tmp
 
 (1) 执行上述命令后可得到可执行文件tmp
 
