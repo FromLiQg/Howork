@@ -7,7 +7,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 using namespace std;
-string grade, tmpclass, loccode, learncode, time, sub, score;
+string grade, tmpclass, loccode, learncode, Time, sub, score;
 //单科结构体 
 struct Node {
 	//该科目总分数 
@@ -159,11 +159,11 @@ int main() {
 	freopen("in.txt","r",stdin);
 	freopen("out.xls", "w", stdout);
 	//int i = 1;
-	while (cin>>grade>>tmpclass>>loccode>>learncode>>time>>sub&& !GetNonSpaceString(score)) {
+	while (cin>>grade>>tmpclass>>loccode>>learncode>>Time>>sub&& !GetNonSpaceString(score)) {
 		double s = StrToD(score);
 		//if(i%10000==0)cout <<"读取完第" <<i<<"条数据" <<endl;
 		//++i;
-		if (time == tar && score!=""&&(score[0] <= '9'&&score[0] >= '0')) {
+		if (Time == tar && score!=""&&(score[0] <= '9'&&score[0] >= '0')) {
 			target.insert(grade, tmpclass, sub, s);
 		}
 	}
