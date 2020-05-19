@@ -2,7 +2,7 @@
 * analysis.cpp 是分析主程序
 
 * in.txt 是分析数据
-* out.xls 是分析结果
+* out.xls 是非可视化分析结果
 * outputIMG.py 是将分析结果可视化的文件
 * tmp.exe 是win10系统下可用的该分析程序的二进制文件
 * 其他文件是tmp.exe辅助文件
